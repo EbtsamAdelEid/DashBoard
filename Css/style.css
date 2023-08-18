@@ -1,0 +1,7 @@
+.customgrid {
+    background: #15B0CF;
+    background: linear-gradient(to right, #15B0CF 50%, #27CF8C 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

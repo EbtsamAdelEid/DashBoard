@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="../imgs/icons8-home-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+
+<body class="bg-body-tertiary">
+    <!-- #region NavBar -->
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Nav Brend -->
+            <a class="navbar-brand customgrid fs-4" href="#">EMS2.0</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- End Collapse button -->
+            <!-- Collapse Nav -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Nav Items -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <!-- Employee Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="employee.html">Employees</a>
+                    </li>
+                    <!-- Job Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="job.html">Jobs</a>
+                    </li>
+                </ul>
+                <!--Start of Nav Form-->
+                <form class="d-flex" role="search">
+                    <div class="hstack gap-3">
+                        <!--Start of Nav Search  -->
+                        <div class="input-group">
+                            <input type="search" class="form-control" placeholder="Search for...">
+                            <button class="btn btn-success" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <!--End of Nav Search  -->
+                        <div class="vr text-bg-light"></div>
+                        <!--Start of Nav Login Icon  -->
+                        <div>
+                            <button class="btn btn-warning" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-power" viewBox="0 0 16 16">
+                                    <path d="M7.5 1v7h1V1h-1z" />
+                                    <path
+                                        d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <!--End of Nav Login Icon  -->
+                    </div>
+                </form>
+                <!--End of Nav Form-->
+
+            </div>
+        </div>
+    </nav>
+    <!-- #endregion -->
+
+    <!-- #region Contect -->
+    <div class="container-fluid mt-3">
+        <div class="row d-flex justify-content-center">
+            <!--Start Of Employee Card -->
+            <div class="col-md-3">
+                <div class="card text-bg-primary mb-3 text-center shadow">
+                    <!-- Card Title -->
+                    <div class="card-header p-2 fs-5">Employees List</div>
+                    <!-- Card Content -->
+                    <div class="card-body p-4">
+                        <p class="card-title fs-1">254+</p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer p-2 ">
+                        <a href="employee.html" class="text-decoration-none text-light d-block fs-6 m-1">
+                            View Employees
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--End Of Employee Card -->
+            <!--Start Of Job Card -->
+            <div class="col-md-3">
+                <div class="card text-bg-primary mb-3 text-center shadow">
+                    <!-- Card Title -->
+                    <div class="card-header p-2 fs-5">Jobs List</div>
+                    <!-- Card Content -->
+                    <div class="card-body p-4">
+                        <p class="card-title fs-1">25+</p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer p-2 ">
+                        <a href="job.html" class="text-decoration-none text-light d-block fs-6  m-1">
+                            View all jobs
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--End Of Job Card -->
+        </div>
+    </div>
+    <!-- #endregion  -->
+   
+    <script src="../bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
